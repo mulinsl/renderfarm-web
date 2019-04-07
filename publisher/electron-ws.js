@@ -55,7 +55,7 @@ wsClient.prototype.connect=function (name,ip,port) {
     this.client.on('open',()=>{
         this.updateWorkerState= setInterval(()=>{
             if(this.alive===false){
-                //当失去连接时提示.
+                //当失去连接时提示
                 return this.client.terminate()
             }
             this.alive=false
