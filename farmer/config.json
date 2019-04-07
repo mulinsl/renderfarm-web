@@ -1,0 +1,8 @@
+{
+    "mode":"remote",
+    "name":"homefarm",
+    "group":"farmers",
+    "ip":"144.34.192.188",
+    "port":2080,
+    "localport":2070
+}
