@@ -1,8 +1,0 @@
-{
-    "name":"worker001",
-    "groups":"workers",
-    "ip":"127.0.0.1",
-    "port":2070,
-    "state":0,
-    "mayaRender":"C:/Program Files/Autodesk/Maya2018/bin/render.exe"
-}
