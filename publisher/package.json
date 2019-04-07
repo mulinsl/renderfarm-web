@@ -1,0 +1,18 @@
+{
+  "name": "publisher",
+  "version": "1.0.0",
+  "description": "publish and monitor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "lin",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^6.1.4"
+  },
+  "devDependencies": {
+    "electron": "^4.0.6"
+  }
+}

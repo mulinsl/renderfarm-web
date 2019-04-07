@@ -1,0 +1,81 @@
+
+
+#jobTitle {
+    background-color:grey
+}
+li{
+    list-style: none;    
+}
+.container{
+    /* background-color: beige; */
+    min-width: 800px;
+}
+
+#jobInfo{
+    background-color: blueviolet;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid red;
+    min-width: 400px;
+
+}
+#taskInfo{
+    background-color: blueviolet;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid red;
+    min-width: 300px;
+
+}
+.cell{
+    float: left;
+    width:12.5%;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    background-color: aliceblue;
+    height: 20px;
+    display: block;    
+}
+.title{
+    border:1px solid blue;
+    background-color: azure;
+    min-width: 420;
+    height: inherit;
+    align-self: center;
+    align-content: center;
+    
+}
+/* 网格视图实现----------------------------------------- */
+/* 确保边距和边框包含在元素的宽度和高度间。margin外边距不会包含，所以不能设置外边距 */
+* {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+[class*="col-"] {
+    float: left;
+    /* padding: 4px; */
+    /* height: 30px; */
+    border: 1px solid gray;
+    position: relative;
+}
+
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+}
