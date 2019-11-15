@@ -1,5 +1,7 @@
 
 manager/node_modules/
 farmer/node_modules/
+manager/job/
+farmer/job/
 publisher/node_modules/
 worker/node_modules/
